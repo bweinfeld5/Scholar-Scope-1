@@ -1,10 +1,9 @@
-// components/CollegeLogos.js
 import styles from '../styles/Home.module.css';
 
 const logos = [
-  '/logos/college1.png',
-  '/logos/college2.png',
-  '/logos/college3.png',
+  '/public/Logos/BClogo.png',
+  '/public/Logos/Emorylogo.png',
+  '/public/Logos/Wakelogo.png',
   // Add paths to your college logos here
 ];
 
@@ -16,7 +15,7 @@ const CollegeLogos = () => (
         src={logo}
         alt={`College Logo ${index + 1}`}
         className={styles.logo}
-        style={{ animationDelay: `${index * 0.5}s` }} // Adjust the delay as needed
+        style={{ animationDelay: `${index * 2}s` }}
       />
     ))}
   </div>

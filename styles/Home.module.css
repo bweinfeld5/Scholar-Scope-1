@@ -25,37 +25,33 @@
     margin-bottom: 2rem;
   }
   
-  .logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 300px;
-    height: 300px;
-  }
-  
-  .logo {
-    position: absolute;
-    width: 50px;
-    height: 50px;
+
+/* Container for the logos */
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  padding: 20px; /* Optional: add padding around the logos */
+}
+
+/* Individual logo styles */
+.logo {
+  width: 100px; /* Adjust the size as needed */
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+/* Keyframe animation for fading in the logos */
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    animation: rotateLogos 10s linear infinite;
+    transform: scale(0.5);
   }
-  
-  @keyframes rotateLogos {
-    0% {
-      transform: rotate(0deg) translateX(150px);
-      opacity: 1;
-    }
-    25% {
-      opacity: 1;
-    }
-    75% {
-      opacity: 1;
-    }
-    100% {
-      transform: rotate(360deg) translateX(150px);
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
+}
   

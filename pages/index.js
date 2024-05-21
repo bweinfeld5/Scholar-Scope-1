@@ -21,5 +21,18 @@ export default function Home() {
     </div>
   )
 }
+// pages/index.js
+import CollegeLogos from '../components/CollegeLogos';
+
+const HomePage = () => {
+  return (
+    <div>
+      <h1>Welcome to Our College Logos Page</h1>
+      <CollegeLogos />
+    </div>
+  );
+};
+
+export default HomePage;
 
 

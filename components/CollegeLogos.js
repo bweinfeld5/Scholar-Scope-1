@@ -1,3 +1,4 @@
+// components/CollegeLogos.js
 import styles from '../styles/Home.module.css';
 
 const logos = [
@@ -15,7 +16,7 @@ const CollegeLogos = () => (
         src={logo}
         alt={`College Logo ${index + 1}`}
         className={styles.logo}
-        style={{ animationDelay: `${index * 2}s` }}
+        style={{ animationDelay: `${index * 0.5}s` }} // Adjust the delay as needed
       />
     ))}
   </div>

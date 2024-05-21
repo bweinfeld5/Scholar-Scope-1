@@ -51,7 +51,7 @@ const About = () => {
                 <section className={styles.impact}>
                     <h2>Our Impact</h2>
                     <p>We've helped thousands of students find their perfect college fit. Here's what some of them have to say:</p>
-                    <blockquote>"Scholar Scope helped me find the right college!" - [Customer Name]</blockquote>
+                    <blockquote className="custom-class">"Scholar Scope helped me find the right college!" - [Customer Name]</blockquote>
                 </section>
                 <section className={styles.contact}>
                     <h2>Get in Touch</h2>

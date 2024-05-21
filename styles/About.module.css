@@ -40,7 +40,7 @@
     margin-bottom: 10px;
 }
 
-blockquote {
+blockquote.custom-class {
     font-style: italic;
     margin: 20px 0;
 }

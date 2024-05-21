@@ -17,11 +17,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #fff6da;
   }
   
   .title {
-    font-size: 4rem;
+    font-size: 8rem;
     margin-bottom: 2rem;
     font-family: 'Decoy', serif;
     font-weight: 700;

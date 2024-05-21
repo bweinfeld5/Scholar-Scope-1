@@ -44,3 +44,17 @@ blockquote.custom-class {
     font-style: italic;
     margin: 20px 0;
 }
+/* styles/About.module.css */
+body {
+    font-family: 'Open Sans', sans-serif; /* Example for body text */
+}
+
+h1 {
+    font-family: 'Decoy', cursive; /* Main headers */
+}
+
+h2, h3, p {
+    font-family: 'basic-sans', sans-serif; /* Subheadings and descriptions */
+    font-weight: 400;
+    font-style: normal;
+}

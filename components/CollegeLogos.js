@@ -1,10 +1,12 @@
+// components/CollegeLogos.js
 import styles from '../styles/Home.module.css';
 
 const logos = [
-  '/public/Logos/BClogo.png',
-  '/public/Logos/Emorylogo.png',
-  '/https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wake_Forest_University_Athletic_logo.svg/2560px-Wake_Forest_University_Athletic_logo.svg.png',
-  // Add paths to your college logos here
+  '/logos/BClogo.png',
+  '/logos/Emorylogo.png',
+  '/logos/Wakelogo.png', 
+    // Add the path to the new logo
+  // Add paths to other college logos here
 ];
 
 const CollegeLogos = () => (
@@ -13,9 +15,9 @@ const CollegeLogos = () => (
       <img
         key={index}
         src={logo}
-        alt={`College Logo ${index + 1}`}
+        alt={`College Logo ${index + 1}`}  // Update alt text as needed
         className={styles.logo}
-        style={{ animationDelay: `${index * 2}s` }}
+        style={{ animationDelay: `${index * 0.5}s` }}  // Adjust the delay as needed
       />
     ))}
   </div>

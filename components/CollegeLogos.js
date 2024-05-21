@@ -10,21 +10,6 @@ const logos = [
 ];
 
 const CollegeLogos = () => (
-  <div className={styles.logos}>
-    {logos.map((logo, index) => (
-      <img
-        key={index}
-        src={logo}
-        alt={`College Logo ${index + 1}`}  // Update alt text as needed
-        className={styles.logo}
-        style={{ animationDelay: `${index * 0.5}s` }}  // Adjust the delay as needed
-      />
-    ))}
-  </div>
-);
-
-export default CollegeLogos;
-const CollegeLogos = () => (
     <div className={styles.logos}>
       <div className={styles.scroll}>
         {logos.map((logo, index) => (
@@ -49,3 +34,5 @@ const CollegeLogos = () => (
   );
   
   export default CollegeLogos;
+
+

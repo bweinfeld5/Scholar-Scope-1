@@ -1,51 +1,5 @@
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.header, .story, .mission, .team, .values, .impact, .contact {
-    margin-bottom: 40px;
-}
-
-.header h1 {
-    font-size: 2.5em;
-}
-
-.story h2, .mission h2, .team h2, .values h2, .impact h2, .contact h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.teamMember {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.teamMember div {
-    margin-left: 20px;
-}
-
-.teamMember h3 {
-    margin: 0;
-}
-
-.values ul {
-    list-style: none;
-    padding: 0;
-}
-
-.values li {
-    margin-bottom: 10px;
-}
-
-blockquote.custom-class {
-    font-style: italic;
-    margin: 20px 0;
-}
-/* styles/About.module.css */
-body {
+/* Add a unique class for body styling */
+.body-class {
     font-family: 'Open Sans', sans-serif; /* Example for body text */
 }
 
@@ -58,4 +12,3 @@ h2, h3, p {
     font-weight: 400;
     font-style: normal;
 }
-

@@ -1,12 +1,12 @@
-// pages/_app.js
-import Layout from '../components/Layout';
-import '../styles/globals.css';
+// pages/_app.js or components/Layout.js
+import '../styles/globals.css'; // Ensure global styles are imported
+import '../styles/About.module.css'; // Import the module stylesheet if needed
 
 function MyApp({ Component, pageProps }) {
     return (
-        <Layout>
+        <div className="body-class">
             <Component {...pageProps} />
-        </Layout>
+        </div>
     );
 }
 

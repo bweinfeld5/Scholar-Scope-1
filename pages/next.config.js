@@ -8,7 +8,17 @@ module.exports = {
           type: 'filesystem',
         };
       }
+      config.module.rules.push({
+        test: /\.css$/,
+        use: [
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+            },
+          },
+        ],
+      });
       return config;
     },
   };
-  

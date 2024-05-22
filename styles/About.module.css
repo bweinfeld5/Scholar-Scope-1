@@ -6,19 +6,6 @@
 .main-heading h1 {
     font-family: 'Decoy', cursive; /* Main headers */
 }
-
-h2, h3, p {
-    font-family: 'basic-sans', sans-serif; /* Subheadings and descriptions */
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* Add a unique class for subheadings and paragraphs */
-.subheading h2, .subheading h3, .text p {
-    font-family: 'basic-sans', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 /* Ensure selectors are pure by including a local class */
 .subheading h2, .subheading h3, .text p {
     font-family: 'basic-sans', sans-serif;

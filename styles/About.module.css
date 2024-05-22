@@ -3,7 +3,7 @@
     font-family: 'Open Sans', sans-serif; /* Example for body text */
 }
 
-h1 {
+.main-heading h1 {
     font-family: 'Decoy', cursive; /* Main headers */
 }
 

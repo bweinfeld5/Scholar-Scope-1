@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "basic-sans";
+    src: url("https://use.typekit.net/your-kit-id.woff2") format("woff2"),
+         url("https://use.typekit.net/your-kit-id.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}

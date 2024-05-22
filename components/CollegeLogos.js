@@ -9,7 +9,7 @@ const logos = [
   '/logos/Yalelogo.png',
   '/logos/Stanfordlogo.png',
   '/logos/MITlogo.png',
-
+  
     // Add the path to the new logo
   // Add paths to other college logos here
 ];
